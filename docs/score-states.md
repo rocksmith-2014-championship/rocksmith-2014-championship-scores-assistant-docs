@@ -59,6 +59,7 @@ Possible score states are:
 #### CLASSIFIED
 
 * all the data is there and artist and song has been recognized between those from the week (by the [Detector](detector.md))
+* you can see the classification details in the [Validator](validator.md), i.e. like if LLM were used to find the song or the score.
 
 #### CLASSIFICATION_FAILED
 

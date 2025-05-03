@@ -14,5 +14,6 @@ Some notes about it:
 * it splits multiple images from the same post and give a serial number to them
 * it doesn't discriminate between images (if they are a score or not), that's the job of the [[detector]]
 
-It's written in Typescript and uses Puppetter to scrape the images.
+It's a python module inside the [[detector]] code, but conceptually it remains a separate step.
+It was initially written in Typescript and uses Puppetter to scrape the images, but there were problems with loading times and memory so we switched to a simpler implementation with Python and beautifulsoup.
 It runs as Google Cloud Function in prod.
