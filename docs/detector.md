@@ -15,7 +15,7 @@ It's written in python, runs on Docker in local and as a Google Cloud Function i
 
 ## When it runs
 
-Runs every day at the top of the hour at the following times:
+Runs every day at the top of the hour at the following times (Europe/Rome timezone):
 
     •	1:00 AM
     •	8:00 AM
