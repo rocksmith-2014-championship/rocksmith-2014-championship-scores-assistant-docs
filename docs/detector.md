@@ -19,16 +19,16 @@ Runs every day at the top of the hour at the following times (Europe/Rome timezo
 
     •	1:00 AM
     •	8:00 AM
-    •	12:00 PM (noon)
     •	6:00 PM
     •	7:00 PM
     •	8:00 PM
     •	9:00 PM
     •	10:00 PM
     •	11:00 PM
+    •	12:00 PM (noon)
 
 In other words:
-“Every day at 1 AM, 8 AM, 12 PM, and every hour from 6 PM through 11 PM.”
+“Every day at 1 AM, 8 AM, 12 PM, and every hour from 6 PM through midnight.”
 
 ## Missing bits
 
