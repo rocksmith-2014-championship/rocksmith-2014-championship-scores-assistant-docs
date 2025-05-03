@@ -15,5 +15,7 @@ Some notes about it:
 * it doesn't discriminate between images (if they are a score or not), that's the job of the [detector](detector.md)
 
 It's a python module inside the [detector](detector.md) code, but conceptually it remains a separate step.
+
 It was initially written in Typescript and uses Puppeteer to scrape the images, but there were problems with loading times and memory so we switched to a simpler implementation with Python and beautifulsoup.
+
 It runs as Google Cloud Function in prod.
